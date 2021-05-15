@@ -22,6 +22,14 @@
 			}
 		}
 
+		public string Str
+		{
+			get
+			{
+				return str;
+			}
+		}
+
 		public Point(int x, int y, string str = "")
 		{
 			this.x = x;

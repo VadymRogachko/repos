@@ -26,15 +26,12 @@ namespace _04
 			Point point5 = new Point(3, 4);
 
 			Figure figure3Sides = new Figure(point1, point2, point3);
-			figure3Sides.PerimeterCalculator();
 			Console.WriteLine($"{figure3Sides.Name} Периметр = {figure3Sides.Perimeter}");
 
-			Figure figure4Sides = new Figure(point1, point2, point3, point4);
-			figure4Sides.PerimeterCalculator();
+			Figure figure4Sides = new Figure(point1, point2, point3, point4);;
 			Console.WriteLine($"{figure4Sides.Name} Периметр = {figure4Sides.Perimeter}");
 
 			Figure figure5Sides = new Figure(point1, point2, point3, point4, point5);
-			figure5Sides.PerimeterCalculator();
 			Console.WriteLine($"{figure5Sides.Name} Периметр = {figure5Sides.Perimeter}");
 
 			Console.ReadKey();

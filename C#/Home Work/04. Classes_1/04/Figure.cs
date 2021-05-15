@@ -27,6 +27,7 @@ namespace _04
 			this.point3 = point3;
 			this.point4 = point4;
 			this.point5 = point5;
+			PerimeterCalculator();
 		}
 
 		public Figure(Point point1, Point point2, Point point3, Point point4)
@@ -41,7 +42,7 @@ namespace _04
 			return lengthSide;
 		}
 
-		public void PerimeterCalculator()
+		private void PerimeterCalculator()
 		{
 			if (point5 != null)
 			{
